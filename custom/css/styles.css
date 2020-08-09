@@ -3,7 +3,6 @@
     padding: 0 ;
     box-sizing: border-box;
 }
-
 body{
     background-color: #f0f0f2;
 }
@@ -185,6 +184,7 @@ a:hover {
     padding: 2px;
   }
 
+
 /* Style for the "Buy an iPad. Get AirPods." segment */
 
 .red {
@@ -218,3 +218,23 @@ a:hover {
 .card6 {
     border-radius: 0 0 6% 0;
 }
+
+  /* style for the landing part */
+  .card-ac{
+    text-align: center;
+    padding: 0 100px;
+  }
+
+  .card-ac h1 {
+      font-size: 5em;
+  }
+
+  .card-ac p{
+      font-size: 1.2em;
+  }
+
+  .card-ac1{
+    display: block;
+    margin: auto;
+    width: 1000px;}
+
