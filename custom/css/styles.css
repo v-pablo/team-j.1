@@ -3,7 +3,6 @@
     padding: 0 ;
     box-sizing: border-box;
 }
-
 body{
     background-color: #f0f0f2;
 }
@@ -185,6 +184,41 @@ a:hover {
     padding: 2px;
   }
 
+
+/* Style for the "Buy an iPad. Get AirPods." segment */
+
+.red {
+    color: #bf4800;
+}
+.cardimg{
+    height: 271px;
+    width: 283px;
+    padding: 1em;
+}
+.cardbox {
+    padding: 100px 0;
+
+}
+.card {
+    width: 350px;
+    margin: 0.3em;
+    padding: 3em;
+}
+.card1 {
+    font-size: 1.28em;
+    line-height: 1.8em;
+    border-radius: 6% 0 0 0; 
+}
+.card3{
+    border-radius: 0 6% 0 0;
+}
+.card4 {
+    border-radius: 0 0 0 6%;
+}
+.card6 {
+    border-radius: 0 0 6% 0;
+}
+
   /* style for the landing part */
   .card-ac{
     text-align: center;
@@ -203,3 +237,4 @@ a:hover {
     display: block;
     margin: auto;
     width: 1000px;}
+
