@@ -1,3 +1,400 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f2;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+
+/*********nav bar styling *********/
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.nav__bar > nav > ul > li > a {
+    color: #dedede;
+}
+.nav__bar > nav > ul > li > a:hover {
+    color: white;
+    transition: 200ms ease-in-out;
+}
+.store-home{
+    display: flex;
+    color: white;
+    background-color: rgb(68, 68, 68);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* height: 7vh; */
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 11.65px;
+    letter-spacing: 0.75px;
+}
+.store-home a {
+    color: white;
+}
+.store-home a:hover{
+    color: rgb(102, 187, 255);
+    cursor: pointer;
+}
+.edu {
+    display: flex;
+    padding-left: 11%;
+}
+
+.edu-home{
+    padding-right: 10px;
+    border-right: 1px rgb(131, 128, 128) solid;
+    margin-right: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.edu-exit{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.nav__bar{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(51, 51, 51);
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-weight: 400;
+}
+
+.nav_items{
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0 !important;  
+}
+
+@media screen and (max-width: 375px ){
+    .nav_items{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .nav__bar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav_items > li{
+        border-bottom: 0.5px solid #f0f0f273;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        list-style-type: none;
+    }
+    .nav_items > li:hover{
+        transform: translateX(7px);
+        transition: 300ms ease-in-out;
+        background-color: rgba(0, 0, 0, 0.034);
+    }
+    .footnotes{
+        font-size: 9px;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .us-flag{
+        margin: 0%;
+    }
+    /* .card-ac h1 {
+        font-size: 15px;
+    }
+    .card-ac{
+        padding: 0px 20px;
+    }
+    .card-ac p{
+        font-size: 0.5em;
+    } */
+    
+}
+@media screen and (max-width: 420px ){
+    .nav_items{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .nav__bar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav_items > li{
+        border-bottom: 0.5px solid #f0f0f273;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        list-style-type: none;
+    }
+    .nav_items > li:hover{
+        transform: translateX(7px);
+        transition: 300ms ease-in-out;
+        background-color: rgba(0, 0, 0, 0.034);
+    }
+    .footer_list{
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+    }
+    .shop_college{
+        font-size: 9px;
+    }
+    .find_store{
+        font-size: 8px;
+    }
+    .copyright{
+        font-size: 8px;
+    }
+    .footnotes{
+        font-size: 9px;
+    }
+    .footnotes{
+        font-size: 9px;
+    }
+    .us-flag{
+        margin: 0%;
+    }
+    /* .card-ac h1 {
+        font-size: 20px;
+    }
+    .card-ac{
+        padding: 0px 20px;
+    }
+  
+    .card-ac p{
+        font-size: 12px;
+    } */
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (max-width: 560px ){
+    .nav_items{
+        
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .nav__bar{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 0.7em;
+    }
+    .footer_list{
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+    }
+    .shop_college{
+        font-size: 9px;
+    }
+    .find_store{
+        font-size: 8px;
+    }
+    .copyright{
+        font-size: 8px;
+    }
+    .footnotes{
+        font-size: 9px;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .us-flag{
+        margin: 0%;
+    }
+}
+    
+.header-sub-text{
+    background-color: #dedede;
+    text-align: center;
+    
+    padding-top: 7px;
+    
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}
+.header-sub-text > p {
+    padding-bottom: 8px;
+}
+.fas, 
+.fab{
+    font-size: 1.2em;
+}
+
+/* footer article atyling */
+
+  .footnotes{
+      font-size: 12px;
+      font-family: SF Pro Text,Myriad Set Pro,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+      color: #86868b;
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+  .issue{
+      margin-bottom: 3px;
+  }
+  article ol {
+      padding: 0px 17px;
+  }
+  article li {
+      padding-bottom: 0.8em;
+  }
+  footer {
+    justify-content: center;
+    padding: 2px;
+  }
+  .foot-items{
+      font-size: 13px;
+  }
+  .foot-items li {
+      list-style-type: none;   
+  }
+  .foot-items a {
+    color: #86868b;
+  }
+  .foot-items a:hover{
+      border-bottom: 0.5px solid black;
+  }
+  .footer_list p {
+    line-height: 1.33337;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,Myriad Set Pro,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: .8em;
+    color: #1d1d1fc7;
+  }
+  .shop_college{
+      font-size: 14px;
+  }
+  
+  .shop_college i {
+      font-size: 18px;
+  }
+  
+  .footer_list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      /* display: flex;
+        justify-content: space-between; */
+        margin-bottom: 1.5%;
+  }
+  .i_p{
+      padding-right: 15px;
+  }
+  .i_p1{
+      color: #1d1d1fc7;
+  }
+  .sub-list{
+      margin-bottom: 15px;
+  }
+  .find_store a{
+    color: rgb(93, 178, 248);
+  }
+  .find_store a:hover{
+    text-decoration: none;
+    border-bottom: 0.5px solid rgb(93, 178, 248);
+  }
+  .copyright{
+      display: flex;
+  }
+  .footer_nav{
+      display: flex;
+      padding-left: 20px;
+  }
+  .no-b{
+      margin-left: 10px;
+      padding-right: 10px;
+      border-right: 1px solid; 
+  }
+  .no-a{
+      margin-left: 10px;
+  }
+  .us-flag{
+      margin-left: auto;
+  }
+  .fa-apple{
+      text-decoration: none;
+      cursor: pointer;
+  }
+
+
+/* Style for the "Buy an iPad. Get AirPods." segment */
+
+.red {
+    color: #bf4800;
+}
+.cardimg{
+    height: 271px;
+    width: 283px;
+    padding: 1em;
+}
+.cardbox {
+    padding: 100px 0;
+
+}
+.card {
+    width: 350px;
+    margin: 0.3em;
+    padding: 3em;
+}
+.card1 {
+    font-size: 1.28em;
+    line-height: 1.8em;
+    border-radius: 6% 0 0 0; 
+}
+.card3{
+    border-radius: 0 6% 0 0;
+}
+.card4 {
+    border-radius: 0 0 0 6%;
+}
+.card6 {
+    border-radius: 0 0 6% 0;
+}
+
+  /* style for the landing part */
+  .card-ac{
+    text-align: center;
+    padding: 0 100px;
+  }
+
+  .card-ac h1 {
+      font-size: 5em;
+  }
+
+  .card-ac p{
+      font-size: 1.2em;
+  }
+
+  .card-ac1{
+    display: block;
+    margin: auto;
+    width: 100vw;
+  }
 *{
     margin: 0;
     padding: 0 ;
@@ -158,8 +555,6 @@ a:hover {
 .fab{
     font-size: 1.2em;
 }
-
-
 
 /* footer article atyling */
 
@@ -666,4 +1061,5 @@ h3.content-head a{
     letter-spacing: .011em;
     text-decoration: none;
 }
+
 
