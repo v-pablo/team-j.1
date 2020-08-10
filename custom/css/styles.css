@@ -127,8 +127,8 @@ a:hover {
     .card-ac p{
         font-size: 0.5em;
     } */
-    
 }
+
 @media screen and (max-width: 420px ){
     .nav_items{
         display: flex;
@@ -302,7 +302,6 @@ footer {
 .shop_college{
     font-size: 14px;
 }
-
 .shop_college i {
     font-size: 18px;
 }
@@ -354,7 +353,7 @@ footer {
 }
 .flag-img{
     border-radius: 100%;
-} */
+}
 
 
 /* Style for the "Buy an iPad. Get AirPods." segment */
@@ -391,7 +390,7 @@ footer {
     border-radius: 0 0 6% 0;
 }
 
-  /* style for the landing part */
+/* style for the landing part */
 
 .card-ac{
     text-align: center;
@@ -839,7 +838,7 @@ h3.content-head a{
     font-weight: 400;
     letter-spacing: .011em;
     text-decoration: none;
-}  */
+}  
 
 
 /* Style for Higher Education Section */
