@@ -9,7 +9,6 @@ body{
     width: 100vw;
 }
 
-
 /*********nav bar styling *********/
 
 a {
@@ -126,9 +125,8 @@ a:hover {
     }
     .card-ac p{
         font-size: 0.5em;
-    } */
-}
-
+    } 
+  
 @media screen and (max-width: 420px ){
     .nav_items{
         display: flex;
@@ -183,7 +181,7 @@ a:hover {
   
     .card-ac p{
         font-size: 12px;
-    } */
+    } 
 
     .copyright{
         display: flex;
@@ -302,6 +300,11 @@ footer {
 .shop_college{
     font-size: 14px;
 }
+
+.shop_college i {
+    font-size: 18px;
+}
+  
 .shop_college i {
     font-size: 18px;
 }
@@ -414,6 +417,30 @@ width: 100vw;
 width: 100%;
 overflow: hidden;
 display: block;
+=======
+  /* style for the landing part */
+  .card-ac{
+    text-align: center;
+    padding: 0 100px;
+  }
+
+  .card-ac h1 {
+      font-size: 5em;
+  }
+
+  .card-ac p{
+      font-size: 1.2em;
+  }
+
+  .card-ac1{
+    display: block;
+    margin: auto;
+    width: 100vw;}
+.sidebar{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+
 }
 
 .sidebar-table{
@@ -838,8 +865,6 @@ h3.content-head a{
     font-weight: 400;
     letter-spacing: .011em;
     text-decoration: none;
-}  
-
 
 /* Style for Higher Education Section */
 
